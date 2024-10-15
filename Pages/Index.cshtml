@@ -1,12 +1,52 @@
-﻿@page
-@model IndexModel
-@{    
-    ViewData["Title"] = "Home page";
+﻿@{
+    Layout = null;
 }
 
-<div class="text-center">
-    <h1 class="display-4">Hello World from .NET 8</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-    <hr />
-    <div>Host operating system: @Model.OSVersion</div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Afshana's Capstone Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+        .container {
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 500px;
+            width: 100%;
+        }
+        h1 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+            border-radius: 8px;
+        }
+        .logo {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="https://via.placeholder.com/400x200.png?text=Welcome+to+My+Project" alt="Project Image" />
+        <h1>This is a webpage created for Afshana's Capstone project</h1>
+        <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/5/54/Great_Learning_logo.png" alt="Great Learning Logo" width="200" />
+    </div>
+</body>
+</html>
